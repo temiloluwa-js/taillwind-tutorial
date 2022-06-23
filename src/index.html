@@ -5,7 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/dist/output.css" />
   </head>
-  <body class="font-body">
+  <body class="font-body bg-zinc-600">
     <div>
       <div>
         <nav>
@@ -39,12 +39,6 @@
           <a href="#" class="mr-2">Log in</a>
           <a href="#">Sign up</a>
         </div>
-<!-- 
-        <div class="flex items-center justify-center">
-            <div class="bg-red-400 h-4 w-4"></div>
-            <div class="bg-slate-500 h-7 w-4"></div>
-            <div class="bg-orange-500 h-9 w-4"></div>
-        </div> -->
 
         <header class="">
           <h2>Recipes</h2>
@@ -54,18 +48,18 @@
         <div class="">
           <h4 class="">Latest Recipes</h4>
 
-          <div>
+          <div class="p-5 m-auto">
             <!-- cards go here -->
-            <div>
-              <img src="images/stew.jpg" alt="stew" />
-              <div>
-                <span>5 Bean Chili Stew</span>
-                <span>Recipe by Mario</span>
+            <div class="bg-gray-700 rounded-3xl overflow-hidden shadow-md">
+              <img src="images/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover"/>
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
             </div>
           </div>
 
-          <h4>Most Popular</h4>
+          <h4 class="text-9xl  font-bold text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500">Most<br> Popular</h4>
 
           <div>
             <!-- cards go here -->
