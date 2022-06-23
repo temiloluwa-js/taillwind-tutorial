@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         primary: "#FF6363",
       },
+      fontFamily: {
+        body: ['Anek Latin']
+      }
     },
   },
   plugins: [],
